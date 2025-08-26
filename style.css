@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .skill-card {
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  .skill-card:hover {
+    transform: translateY(-10px);
+    background: #f8f9fa;
+  }
+  
+  #about {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+  }
+  
+  #projects .card {
+    transition: transform 0.3s;
+  }
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
